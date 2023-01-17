@@ -1,0 +1,27 @@
+{% load static %}
+<title>Триатлонец</title>
+<body background="{% static "img/Triathlete.jpg" %}" >
+<style>
+    body {
+  background-image: "{% static "img/Triathlete.jpg" %}";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<head>
+    <h1>Ракета идет на взлет ! {{nomer_okowko}}</h1>
+
+    <link rel="stylesheet" href="{% static "css/style.css" %}" />
+</head>
+<a href="http://127.0.0.1:8000/menu/">ссылка на меню</a>
+<p>Моя версия ракеты: {{phone}}</p>
+<h1>А сейчас внимание!!</h1>
+<h4>Кто-то будет :)</h4>
+
+<img src="https://ss.sport-express.ru/userfiles/materials/170/1706520/large.jpg">
+
+<p>На фото сверху триатлонист!</p>
+
+</body>
